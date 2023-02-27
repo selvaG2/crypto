@@ -12,27 +12,55 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+    </style>
+    <link rel="stylesheet" href="/css/index.css">
 
 </head>
 
 <body>
-    <div>
-        <img src="/assets-crypto/logo.png" style="height: 70px;width: 70px;float: left;">
-    <ul class="nav justify-content-center" style="margin-top:10px;">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-        </li>
-    </ul>
-    </div>
+
 </body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarCenteredExample"
+            aria-controls="navbarCenteredExample" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <p style="color: white;margin-left: 130px;" ><img src="/assets-crypto/logo.png" class="px-4">CRYPTOZ</p>
+        <div class="collapse navbar-collapse justify-content-center bg-transparent " id="navbarCenteredExample">
+            <!-- Left links -->
+
+            <ul class="navbar-nav mb-2 mb-lg-0" id="navid">
+                <li class="nav-item">
+                    <a class="nav-link px-3" aria-current="page" href="#" style="color: white;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="#" style="color: white;"> About us </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="#" style="color: white;"> Swap </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="#" style="color: white;"> Donate </a>
+                </li>
+                <li>
+                    <b><a class="btn btn-primary px-3" href="#" role="button" id="curveid" style="color: black;"> Get
+                        started </a></b>
+                </li>
+            </ul>
+            <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+        <img src="/assets-crypto/Search.png" class="search">
+    </div>
+    <!-- Container wrapper -->
+
+</nav>
 
 </html>
